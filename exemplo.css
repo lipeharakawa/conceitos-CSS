@@ -1,0 +1,156 @@
+.exemplo_float_1{
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.exemplo_float_1 img{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.exemplo_ul{
+    background-color: black;
+    padding: 20px;
+}
+
+.exemplo_li{
+    display: inline-block;
+}
+
+.exemplo_a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.exemplo_a:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+.exemplo_float_2{
+    float: right;
+}
+
+.ul{
+    background-color: black;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.li{
+    float: left;
+}
+
+.a, .dropbtn{
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover, .dropdown:hover .dropbtn{
+    background-color: red;
+}
+
+.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    position: absolute;
+    background-color: white;
+    width: 150px;
+    display: none;
+}
+
+.dropdown-content a {
+    display: block;
+    color: black;
+    text-align: left;
+    border: 1px solid gray;
+}
+
+.dropdown-content a:hover{
+    color: white;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.flex-pai{
+    background-color: blue;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.flex-pai div{
+    flex-grow: 1;
+    background-color: white;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: blue;
+    }
+}
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {
+    body{
+        background-color: green;
+    }
+}
+
+/* Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: yellow;
+    }
+}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {
+    body{
+        background-color: red;
+    }
+}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {
+    body{
+        background-color: white;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .flex-pai{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+

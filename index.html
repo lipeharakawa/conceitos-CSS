@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Felipe Seidi Harakawa">
+    <meta name="description" content="Página web com conceitos de CSS.">
+    <meta name="keywords" content="programação, css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Elementos CSS</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Aplicação do CSS</h1>
+    </header>
+    <nav class="navbar">
+        <a href="index.html">Aplicação do CSS</a>
+        <a href="propriedade.html">Propriedades</a>
+        <a href="texto.html">Formatação de texto</a>
+        <a href="display.html">Display</a>
+        <a href="exemplo.html">Exemplos</a>
+        <a href="https://lipeharakawa.github.io/conceitos-html/" target="_blank">Conceitos HTML</a>
+        <a href="https://lipeharakawa.github.io/JS-intermediario" target="_blank">Conceitos JavaScript</a>
+    </nav>
+    <section class="corpo">
+        <div class="card">
+            <h2>Folha de estilos externa</h2>
+            <p>Uma folha de estilos externa é quando você tem seu CSS escrito em um arquivo separado com uma extensão .css, e você o refere dentro de um elemento &lt;link&gt; do HTML</p>
+            <img style="max-width: 45%;" src="assets/img/img1.png">
+
+            <h2>Folha de estilos interna</h2>
+            <p>Uma folha de estilos interna é usada quando você não tem um arquivo CSS externo, mas, ao contrário, coloca seu CSS dentro de elemento &lt;style&gt; localizado no &lt;head&gt; do documento HTML.</p>
+            <img style="max-width: 45%;" src="assets/img/img2.png">
+
+            <h2>Folha de estilos inline</h2>
+            <p>Estilos inline são declarações CSS que afetam apenas um determinado elemento, inserido em um atributo style:</p>
+            <img style="max-width: 45%;" src="assets/img/img3.png">
+
+            <h2>Seletores de classe</h2>
+            <p>O seletor de classes CSS corresponde aos elementos com base no conteúdo de seus atributos class.</p>
+
+            <h3>Sintaxe HTML - classe</h3>
+            <p>&lt;tag class="classe_nome classe_cor"&gt;Exemplo&lt;tag&gt;</p>
+
+            <h3>Sintaxe CSS - classe</h3>
+            <p>.classe_nome{ <br>
+                propriedades de estilo; <br>
+            }</p>
+
+            <img style="max-width: 45%;" src="assets/img/img4.png">
+
+            <h3>Sintaxe HTML - id</h3>
+            <p>&lt;tag id="id"&gt;Exemplo&lt;tag&gt;</p>
+
+            <h3>Sintaxe CSS - id</h3>
+            <p>#id{ <br>
+                propriedades de estilo; <br>
+            }</p>
+
+            <img style="max-width: 45%;" src="assets/img/img5.png">
+
+            <div class="referencia">
+                <h3>Referência Bibliográfica</h3>
+                <p>MOZILLA. Como CSS é estruturado. Disponível em: <a href="https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/How_CSS_is_structured#estilos_inline" target="_blank">Ver Site</a>. Acesso em: 31 de mar. de 2023.</p>
+                <p>MOZILLA. Seletores de classe. Disponível em: <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/Class_selectors" target="_blank">Ver Site</a>. Acesso em: 31 de mar. de 2023.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <a href="index.html">Voltar para o início</a>
+    </footer>
+</body> 
+</html>

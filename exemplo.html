@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Felipe Seidi Harakawa">
+    <meta name="description" content="Página web com conceitos de CSS.">
+    <meta name="keywords" content="programação, css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./exemplo.css">
+    <title>Elementos CSS</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Exemplos float, Dropdown e Flexbox</h1>
+    </header>
+    <nav class="navbar">
+        <a href="index.html">Aplicação do CSS</a>
+        <a href="propriedade.html">Propriedades</a>
+        <a href="texto.html">Formatação de texto</a>
+        <a href="display.html">Display</a>
+        <a href="exemplo.html">Exemplos</a>
+        <a href="https://lipeharakawa.github.io/conceitos-html/" target="_blank">Conceitos HTML</a>
+        <a href="https://lipeharakawa.github.io/JS-intermediario" target="_blank">Conceitos JavaScript</a>
+    </nav>
+    <section class="corpo">
+        <div class="card">
+            <h2>float</h2>
+            <p>A propriedade float determina que um elemento deve ser retirado do seu fluxo normal e colocado ao longo do lado direito ou esquerdo do seu containêr, onde textos e elementos em linha irão se posicionar ao seu redor.</p>
+            <div class="exemplo_float_1">
+                <img width="250" height="300" src="https://picsum.photos/200">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, reiciendis et veniam repudiandae illum odio numquam natus! Praesentium beatae voluptate officia dolores, similique quos repudiandae quas tempore aliquam repellat impedit?</p>
+                <h3 style="clear: both;">Outro Título</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis et nulla deserunt corrupti iste, unde perferendis! Aliquam aut voluptates, mollitia provident placeat minus omnis animi dolor error fugit deleniti consequatur.</p>
+            </div>
+        
+            <h2>Dropdown</h2>
+            <ul class="ul">
+                <li class="li"><a href="#" class="a">Menu 1</a></li>
+                <li class="li"><a href="#" class="a">Menu 2</a></li>
+                <li class="li"><a href="#" class="a">Menu 3</a></li>
+                <li class="li dropdown"><a href="#" class="a dropbtn">Menu 4</a>
+                    <div class="dropdown-content">
+                        <a href="#" class="a">Menu 5</a>
+                        <a href="#" class="a">Menu 6</a>
+                        <a href="#" class="a">Menu 7</a>
+                        <a href="#" class="a">Menu 8</a>
+                    </div>
+                </li>
+            </ul>
+
+            <h2>Flexbox</h2>
+            <p>O módulo de caixa flexível, geralmente referido como flexbox, foi projetado como um modelo de layout unidimensional e como um método que pode oferecer distribuição de espaço entre itens em uma interface e recursos de alinhamento poderosos.</p>
+            <div class="flex-pai">
+                <div style="flex: 30%;">1</div>
+                <div>2</div>
+                <div style="flex: 50%;">3</div>
+                <div>4</div>
+            </div>
+
+            <div class="referencia">
+                <h3>Referência Bibliográfica</h3>
+                <p>MOZILLA. CSS: Folhas de estilo em cascata. Disponível em: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">Ver Site</a>. Acesso em: 31 de mar. de 2023.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <a href="exemplo.html">Voltar para o início</a>
+    </footer>
+</body> 
+</html>
